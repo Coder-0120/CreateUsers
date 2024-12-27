@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(249, 214, 175);
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.box{
+    width: 300px;
+    height: auto;
+    background-color: rgb(251, 240, 30);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid red;
+}
+.boxcont{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+#edit{
+    color: rgb(73, 131, 41);
+    font-weight: 800;
+}
+#edit:hover{
+    color: rgb(150, 192, 86);
+}
+
+#delete:hover{
+    color: rgb(221, 103, 103);
+}
+#delete{
+    color:red;
+    font-weight: 800;
+    margin-left: 10px;
+}
+#muser:hover{
+    color: rgb(70, 175, 47)
+}

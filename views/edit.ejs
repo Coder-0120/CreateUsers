@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identity</title>
+    <link rel="stylesheet" href="/stylesheets/edit.css">
+</head>
+<body>
+    <h1>Edit Your Details</h1>
+    <form action="/update/<%= users._id %>" method="post">
+        <input type="text" value="<%= users.name %>" name="name">
+        <input type="text"  value="<%= users.course %>"  name="course">
+        <input type="text"  value="<%= users.branch %>"  name="branch">
+        <input type="email"  value="<%= users.email %>"  name="email">
+        <input type="text"   value="<%= users.contactno %>"  name="contactno">
+        <input type="submit"  id="btn" value="Update" >
+    </form>
+    <h2><a href="/read">All Users</a></h2>
+   
+    
+</body>
+</html>
